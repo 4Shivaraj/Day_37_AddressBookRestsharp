@@ -16,20 +16,113 @@ namespace AddressBookRestSharp
 }
 
 /*
- UC-24
-Ability to Update Entry in Address Book JSONServer and sync with Address Book Application Memory 
+ UC-25
+Ability to Delete Entry in Address Book JSONServer and sync with Address Book Application Memory 
 - Use RESTSharp for REST Api Calls from MSTest Test Code
 
-Standard Output: 
+Standard Output
 {
-  "firstname": "Yash",
-  "lastname": "V",
-  "phoneNo": "7858070934",
-  "address": "FC Real Madrid",
-  "city": "Madrid",
-  "state": "Spain",
-  "zip": "535678",
-  "email": "yash7@gmail.com",
-  "id": 7
+  "contacts": [
+    {
+      "id": 1,
+      "firstname": "Shivaraj",
+      "lastname": "Gowda",
+      "phoneNo": "8618199771",
+      "address": "Basaveshwarnagar",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zip": "560079",
+      "email": "4shivaraj.gowda@gmail.com"
+    },
+    {
+      "id": 2,
+      "firstname": "Cheluvesha",
+      "lastname": "Bettaswamy",
+      "phoneNo": "9044567887",
+      "address": "Chinnaswamy",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zip": "354676",
+      "email": "cb97@gmail.com"
+    },
+    {
+      "id": 3,
+      "firstname": "Hema",
+      "lastname": "Latha",
+      "phoneNo": "8754457887",
+      "address": "Chidambaram",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "zip": "998765",
+      "email": "hema@gmail.com"
+    },
+    {
+      "id": 4,
+      "firstname": "Deepak",
+      "lastname": "Kumar",
+      "phoneNo": "9254567887",
+      "address": "Eden Gardens",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "zip": "115654",
+      "email": "DeepakKumar09@gmail.com"
+    },
+    {
+      "firstname": "Arun",
+      "lastname": "R",
+      "phoneNumber": "9577456345",
+      "address": "Feroz Shah Kotla",
+      "city": "New Delhi",
+      "state": "New Delhi",
+      "zip": "547677",
+      "email": "vs@gmail.com",
+      "id": 5
+    },
+    {
+      "firstname": "Ankitha",
+      "lastname": "H",
+      "phoneNumber": "9756723456",
+      "address": "Chinnaswamy",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zip": "435627",
+      "email": "yc@gmail.com",
+      "id": 6
+    },
+    {
+      "firstname": "Arun",
+      "lastname": "R",
+      "phoneNumber": "9577456345",
+      "address": "Feroz Shah Kotla",
+      "city": "New Delhi",
+      "state": "New Delhi",
+      "zip": "547677",
+      "email": "vs@gmail.com",
+      "id": 8
+    },
+    {
+      "firstname": "Ankitha",
+      "lastname": "H",
+      "phoneNumber": "9756723456",
+      "address": "Chinnaswamy",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zip": "435627",
+      "email": "yc@gmail.com",
+      "id": 9
+    },
+    {
+      "firstname": "Yash",
+      "lastname": "V",
+      "phoneNumber": "9954564345",
+      "address": "Mohali",
+      "city": "Mohali",
+      "state": "Punjab",
+      "zip": "113425",
+      "email": "klr@gmail.com",
+      "id": 10
+    }
+  ]
 }
+
  */
